@@ -4,7 +4,7 @@ document.querySelector('#zipcode-form').addEventListener('submit', (e) => {
   if (zipcode !== "") getInfo(zipcode);
 });
 
-const API_URL = 'http://api.zippopotam.us';
+const API_URL = 'https://api.zippopotam.us';
 
 let infoCode = {
   'post code': '',
